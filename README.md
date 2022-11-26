@@ -16,7 +16,7 @@ by passing `:inline true` as an option to sql/format:
 ["SELECT a, b, c FROM foo WHERE foo.a = 'baz'"]
 ```
 
-The purpose of this plugin is to do the same for HugSQL.
+The purpose of this plugin is to do the same for [HugSQL](https://github.com/layerware/hugsql).
 
 Just require the library in namespace to load it before using HugSQL:
 
