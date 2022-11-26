@@ -1,5 +1,8 @@
 # hugsql-inline-plugin
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ilevd/hugsql-inline-plugin.svg)](https://clojars.org/org.clojars.ilevd/hugsql-inline-plugin)
+
+[HoneySQL](https://github.com/seancorfield/honeysql#format) allows you to format the query as a 
 [HoneySQL](https://github.com/seancorfield/honeysql#format) allows you to format the query as a 
 string with no parameters (e.g. to use the SQL statement in a SQL console) 
 by passing `:inline true` as an option to sql/format:
